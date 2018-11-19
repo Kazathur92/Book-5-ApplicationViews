@@ -1,0 +1,42 @@
+.employees {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  align-content: flex-start;
+}
+
+.name {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.icon--dog {
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  width: 15rem;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-link {
+  margin: 12px 0 0 90px;
+  font-size: 0.7em;
+}
+
+img {
+  margin-left: 65px;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 100px;
+}
